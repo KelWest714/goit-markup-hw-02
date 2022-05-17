@@ -56,6 +56,8 @@ body {
 
 .site-nav .link {
   text-decoration: none;
+
+  color: var(--primary-text-color);
 }
 
 .site-nav .link:hover,
@@ -110,11 +112,28 @@ body {
   color: var(--white-color);
   background-color: var(--accent-color);
   cursor: pointer;
+
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 .button.primary {
   color: #212121;
   background-color: var(--secondary-background);
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .button.primary:hover,
@@ -202,6 +221,7 @@ body {
 .address .adr {
   color: var(--white-color);
 
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -217,6 +237,7 @@ body {
 .address .footcont {
   color: var(--color-footer);
 
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
